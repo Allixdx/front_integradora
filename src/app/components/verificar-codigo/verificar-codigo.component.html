@@ -7,10 +7,6 @@
             <form class="verification-form" [formGroup]="verifyForm" (ngSubmit)="verify()">
                 <p class="description">Ingresa el código que hemos enviado a tu correo para verificar tu cuenta.</p>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input id="email" class="form-control" formControlName="email" placeholder="Ingresa tu Email">
-                </div>
-                <div class="form-group">
                     <label for="verificationCode">Código de Verificación</label>
                     <input id="verificationCode" class="form-control" formControlName="verificationCode" placeholder="Ingresa tu Código de Verificación">
                 </div>
