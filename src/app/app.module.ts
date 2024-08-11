@@ -22,6 +22,7 @@ import { CookieService } from 'ngx-cookie-service';
 import { SocketIoConfig } from 'ngx-socket-io';
 import { SocketIoModule } from 'ngx-socket-io';
 
+
 const conf: SocketIoConfig = { url:'http://146.190.145.131:3333', options:{transports:['websocket']}}
 
 
