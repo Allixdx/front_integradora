@@ -1,6 +1,6 @@
 .bar {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff8b;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -26,9 +26,21 @@
     width: 100%;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     width: 62px;
     height: 62px;
+}
+
+.logo-text {
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    margin-left: 10px; /* Espaciado entre el logo y el texto */
+    color: #333; /* Color del texto */
 }
 
 .nav-actions {
